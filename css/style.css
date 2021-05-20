@@ -83,12 +83,12 @@ a.offset-anchor {
   }
 }
 
-#section-cars h2 {
-  padding-bottom: 10px;
+#section-cars {
+  text-align: start;
 }
 
-.card {
-  text-align: start;
+#section-cars h2 {
+  padding-bottom: 10px;
 }
 
 .card img {
