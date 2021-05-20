@@ -34,9 +34,21 @@ a.offset-anchor {
   }
 }
 
+.logo, .nav-link {
+  transition: text-shadow 0.2s;
+}
+
 .logo {
   font-family: 'Parisienne', Arial, Helvetica, sans-serif;
   font-size: 2em;
+}
+
+.logo:hover {
+  text-shadow: 0 0 0.1em rgba(200, 0, 0, 1);
+}
+
+.nav-link:hover {
+  text-shadow: 0 0 0.5em rgba(200, 0, 0, 1);
 }
 
 .banner {
