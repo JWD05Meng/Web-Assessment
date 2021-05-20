@@ -22,6 +22,12 @@ html {
   text-align: center;
 }
 
+a.offset-anchor {
+  position: relative;
+  top: -74px;
+  visibility: hidden;
+}
+
 @media only screen and (min-width: 1200px) {
   #section-cars, #secondary-sections {
     padding: 0 10%;
@@ -64,6 +70,10 @@ html {
 
 #section-cars h2 {
   padding-bottom: 10px;
+}
+
+.card {
+  text-align: start;
 }
 
 .card img {
